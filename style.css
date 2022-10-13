@@ -80,7 +80,7 @@ h2 {
 h1 {
   text-align: center;
   font-size: 1.375rem;
-  padding-top: 2.81rem;
+  padding-top: 2rem;
   color: var(--gray);
 }
 
@@ -92,7 +92,7 @@ strong {
 h2 {
   text-align: center;
   font-size: 0.75rem;
-  padding-top: 1.25rem;
+  padding-top: 1rem;
 }
 
 form {
