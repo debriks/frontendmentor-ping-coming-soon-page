@@ -7,15 +7,15 @@ form.addEventListener("submit", (e) => {
   const emailValue = email.value;
   const small = form.querySelector("small");
 
-  if (!isValidEmail(emailValue)) {
-    // input value is invalid
-    email.classList.add("error");
-    small.innerText = "Please provide a valid email address";
-    small.style.display = "inline-block";
+  if (!emailValue) {
     // input value is empty
-  } else if (!emailValue) {
     email.classList.add("error");
     small.innerText = "Email field cannot be empty";
+    small.style.display = "inline-block";
+    // input value is invalid
+  } else if (!isValidEmail(emailValue)) {
+    email.classList.add("error");
+    small.innerText = "Please provide a valid email address";
     small.style.display = "inline-block";
   } else {
     // input value is correct
