@@ -59,7 +59,7 @@ img {
 }
 
 main {
-  padding: 5.31rem 1.75rem;
+  padding: 4rem 1.75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,7 +150,7 @@ button:hover {
 }
 
 .illustration {
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-bottom: 6.25rem;
 }
 
